@@ -1,0 +1,13 @@
+title: "Kaustav Roy"
+email: kaustavr25@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my portfolio website!
+baseurl: "/" 
+url: "/" 
+twitter_username: kaustavr25
+github_username:  kaustavr19
+
+sass:
+  sass_dir: _sass
+
+icon: /assets/img/circle-cropped (4).png
