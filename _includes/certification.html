@@ -1,0 +1,19 @@
+<h2>Certifications</h2>
+<div class="card-container">
+    {% for item in site.data.Certification %}
+    {% if item.cred-url %}
+    <a href="{{ item.cred-url }}">
+    {% else %}
+    <a>
+    {% endif %}
+      <div class="card">
+        <div class="info">
+          <p class="title">{{ item.title }}</p>
+          <p class="location">{{ item.institute }}</p>
+          <p class="dates">{{ item.date }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  
